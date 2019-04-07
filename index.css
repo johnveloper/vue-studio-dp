@@ -22,6 +22,12 @@ html, body {
   background: #202041;
 }
 
+.Header-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  flex: 1;
+}
+
 .Header-logo {
   margin-left: 16px;
   font-size: 24px;
