@@ -1,6 +1,7 @@
 .f { display: flex; }
 .a-center { align-items: center; }
 .j-between { justify-content: space-between; }
+.mr-16 { margin-right: 16px; }
 
 
 
@@ -13,6 +14,10 @@ html, body {
   color: #ddd;
   height: 100%;
   width: 100%;
+}
+
+a {
+  color: #bbbbbb; 
 }
 
 
@@ -33,4 +38,22 @@ html, body {
   font-size: 24px;
   user-select: none;
   color: #41B883
+}
+
+
+
+.Nav {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.Nav-current {
+  border: 1px solid #555555;
+  padding: 4px 8px;
+  user-select: none;
+}
+
+.Nav-current:hover {
+  border-color: #aaaaaa;
+  cursor: pointer;
 }
