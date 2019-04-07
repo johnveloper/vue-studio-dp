@@ -11,6 +11,8 @@ html, body {
   font-size: 16px;
   background: #15152a;
   color: #ddd;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -24,4 +26,5 @@ html, body {
   margin-left: 16px;
   font-size: 24px;
   user-select: none;
+  color: #41B883
 }
