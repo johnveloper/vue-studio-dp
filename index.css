@@ -52,6 +52,14 @@ a {
   position: relative;
 }
 
+.Nav-item {
+  text-decoration: none;
+}
+
+.Nav-item > a {
+  text-decoration: none;
+}
+
 .Nav-current {
   border: 1px solid #737373;
   padding: 4px 8px;

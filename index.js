@@ -2,7 +2,8 @@ let app = new Vue({
   el: '#app',
   data: {
     navExpanded: false,
-    content: ''
+    content: '',
+    page: 'home'
   },
   methods: {
     toggleNav: function() {
@@ -10,6 +11,6 @@ let app = new Vue({
     }
   },
   mounted() {
-    axios.get('content/home.html').then(res => this.content = res.data );
+    axios.get('content/' + this.page + '.html').then(res => this.content = res.data );
   }
 });
