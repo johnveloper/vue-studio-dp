@@ -23,6 +23,10 @@ a {
 
 
 .Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 56px;
   background: #202041;
 }
@@ -64,5 +68,6 @@ a {
 .Main {
   max-width: 1032px;
   padding: 16px;
-  margin: 56px auto 0 auto;
+  margin: 0 auto;
+  padding-top: 56px;
 }
