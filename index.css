@@ -58,3 +58,11 @@ a {
   border-color: #aaaaaa;
   cursor: pointer;
 }
+
+
+
+.Main {
+  max-width: 1032px;
+  padding: 16px;
+  margin: 56px auto 0 auto;
+}
