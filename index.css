@@ -48,12 +48,13 @@ a {
 }
 
 .Nav-current {
-  border: 1px solid #555555;
+  border: 1px solid #737373;
   padding: 4px 8px;
   user-select: none;
+  border-radius: 4px;
 }
 
-.Nav-current:hover {
+.Nav-current:hover { 
   border-color: #aaaaaa;
   cursor: pointer;
 }
